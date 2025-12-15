@@ -4,25 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/profile.css">
     <title>Fumble Profile</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <img src="img/Logo Fumble.svg" alt="Logo Fumble">
+        <div class="nav-logo">
+            <img class="logo" src="img/Logo Fumble.svg" alt="Logo Fumble">
         </div>
     </header>
     <main>
-        <section>
-            <div> <!--MEMBER ( profile) icon/foto-->
+        <section class="profile-wrap">
+            <div class="profile-icon"> <!--MEMBER ( profile) icon/foto-->
                 <img src="img/icons/Member.png" alt="Member Icon">
             </div>
             <h1>Student Member</h1>
             <p>student@fumble.club</p>
         </section>
 
-        <section>
+        <section class="about-us">
             <h2>
                 About Fumble
             </h2>
@@ -31,52 +32,52 @@
                 exchange academic tasks and support without money or obligations.
             </p>
 
-            <ul>
-                <li>Collaboration &amp; Responsibility</li>
-                <li>Peer-to-peer Learning</li>
-                <li>Academic Integrity</li>
+            <ul class="about-us-list">
+                <li> ✓ Collaboration &amp; Responsibility</li>
+                <li> ✓ Peer-to-peer Learning</li>
+                <li> ✓ Academic Integrity</li>
             </ul>
         </section>
+
+
+        <!--Settings,Edit Profile, Order History-->
+        <section class="acc-options">
+            <a class="acc-item" href="#">
+                <img src="img/icons/IconProfile.svg" alt="Profile Edit Icon">
+                <span class="option-desc">Edit Profile</span>
+                <span class="arrow">&#65125;</span>
+            </a>
+
+            <a class="acc-item" href="#">
+                <img src="img/icons/IconOrder.svg" alt="Order Box Icon">
+                <span class="option-desc">Order History</span>
+                <span class="arrow">&#65125;</span>
+            </a>
+
+            <a class="acc-item" href="#">
+                <img src="img/icons/IconSettings.svg" alt="Settings Icon">
+                <span class="option-desc">Settings</span>
+                <span class="arrow">&#65125;</span>
+            </a>
+        </section>
+
+        <!--LOgOUT-->
+        <section class="logout">
+            <button class="logout-btn" type="button">
+                <span class="logout-left">
+                    <img class="logout-icon" src="img/icons/IconLogout.svg" alt="Logout icon">
+                    <span>Logout</span>
+                </span>
+            </button>
+        </section>
     </main>
-
-    <!--Settings,Edit Profile, Order History-->
-    <section>
-        <a href="#">
-            <img src="img/icons/IconProfile.svg" alt="Profile Edit Icon">
-            <span>Edit Profile</span>
-            <span class="arrow">></span>
-        </a>
-
-        <a href="#">
-            <img src="img/icons/IconOrder.svg" alt="Order Box Icon">
-            <span>Order History</span>
-            <span class="arrow">></span>
-        </a>
-
-        <a href="#">
-            <img src="img/icons/IconSettings.svg" alt="Settings Icon">
-            <span>Settings</span>
-            <span class="arrow">></span>
-        </a>
-    </section>
-
-    <!--LOgOUT-->
-    <section class="logout">
-        <button class="logout-btn" type="button">
-            <span class="logout-left">
-                <img class="logout-icon" src="img/icons/IconLogout.svg" alt="Logout icon">
-                <span>Logout</span>
-            </span>
-        </button>
-    </section>
-
     <!-- BottomNav -->
     <nav class="bottom-bar">
         <ul class="bottom-bar-list">
             <li>
                 <a class="bottom-bar-links" href="index.html">
                     <!-- home -->
-                    <img class="bottom-bar-icons" src="img/icons/BtnHome2.svg" alt="Home icon">
+                    <img class="bottom-bar-icons" src="img/icons/BtnHome.svg" alt="Home icon">
                 </a>
             </li>
 
@@ -97,7 +98,7 @@
             <li>
                 <a class="bottom-bar-links" href="profile.html">
                     <!-- profile -->
-                    <img class="bottom-bar-icons" src="img/icons/Btnprofile2.svg" alt="Profile icon">
+                    <img class="bottom-bar-icons" src="img/icons/ButtonProfile.svg" alt="Profile icon">
                 </a>
             </li>
         </ul>

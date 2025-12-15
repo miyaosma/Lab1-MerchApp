@@ -1,0 +1,144 @@
+/*
+COLOR PALETTE
+0C3C3B - dark green
+005251 - mid green
+00615F - light green
+FFC53E - yellow
+171717 - black
+F9F3F1 - off-white
+B6B6B6 - gray
+*/
+
+:root {
+    --dark: #0C3C3B;
+    --mid: #005251;
+    --lightgreen: #00615F;
+    --yellow: #FFC53E;
+    --black: #171717;
+    --offwhite: #F9F3F1;
+    --gray: #B6B6B6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffff;
+}
+
+header {
+    background: var(--dark);
+    padding: 18px 0px;
+
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    height: 24px;
+    width: auto;
+    display: block;
+}
+
+/*profile wrap*/
+
+.profile-wrap {
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    padding-top: 14px;
+    padding-right: 12px;
+
+}
+
+.profile-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 78px;
+    margin-bottom: 2px;
+
+}
+
+.profile-wrap h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 2px;
+}
+
+.profile-wrap p {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--dark);
+
+}
+
+/* cart abt*/
+.about-us {
+    background: var(--offwhite);
+    border-radius: 22px;
+    padding: 16px;
+    margin-top: 14px;
+}
+
+.about-us h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 10px;
+
+}
+
+.about-us p {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--dark);
+    line-height: 18px;
+    margin-bottom: 12px;
+
+}
+
+.about-us-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.about-us-list li {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--lightgreen);
+} 
+
+.acc-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 16px 0px;
+}
+
+.acc-item {
+    background:#ffff;
+    text-decoration: none;
+    color: var(--dark);
+    border: 1px solid var(--gray);
+    border-radius: 12px;
+    padding: 14px;
+}
+.acc-item img {
+    width: 16px;
+    height: 16px;
+    display: block;
+}
