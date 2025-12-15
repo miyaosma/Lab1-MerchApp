@@ -69,10 +69,16 @@ header {
 .shop-intro h1 {
     color: var(--dark);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 8px;
 }
 
+.shop-intro p {
+    font-size: 13px;
+    font-weight: 600;
+    color:var(--lightgreen);
+
+}
 .shop-search p {
     font-size: 13px;
     color: var(--dark);
