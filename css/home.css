@@ -1,0 +1,98 @@
+/*
+COLOR PALETTE
+0C3C3B - dark green
+005251 - mid green
+00615F - light green
+FFC53E - yellow
+171717 - black
+F9F3F1 - off-white
+B6B6B6 - gray
+*/
+:root {
+    --dark: #0C3C3B;
+    --mid: #005251;
+    --lightgreen: #00615F;
+    --yellow: #FFC53E;
+    --black: #171717;
+    --offwhite: #F9F3F1;
+    --gray: #B6B6B6;
+
+    --radius-card: 18px;
+    --radius-img: 18px;
+
+}
+
+* {
+    margin: 0;
+    padding:0; 
+}
+
+body {
+    font-family:"Popins", sans-serif;
+    background: #ffff;
+
+}
+
+header {
+    background: var(--dark);
+    padding: 18px 0px;
+}
+
+/*LOGO i IMG */ 
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo img {
+    height: 24px;
+    width: auto;
+
+}
+
+/*INTRO all*/ 
+.shop-intro {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.shop-intro h1 {
+    color: var(--dark);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.shop-search p {
+    font-size: 13px;
+    color: var(--dark);
+}
+
+
+/*SEARCHBAR*/
+
+.shop-search {
+    padding-top: 14px;
+    padding-bottom: 8px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.shop-search label {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap:10px;
+    background: var(--dark);
+    padding: 12px 14px;
+    border-radius: 14px;
+
+}
+
