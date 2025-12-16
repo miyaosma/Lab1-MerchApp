@@ -144,6 +144,21 @@ header img {
     margin-bottom: 14px;
 }
 
+
+.delete-btn {
+    background: #fdeaea;
+    /*position: absolute;
+    top: 95px;
+    right: 30px; */
+    width: 22px;
+    height: 22px;
+    border-radius: 45%;
+    border: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*ROWS*/
 .line {
     border: none;
@@ -178,7 +193,7 @@ header img {
     color: var(--dark);
 }
 
-.total-price-sum  {
+.total-price-sum {
     font-size: 18px;
     font-weight: 800;
     color: var(--dark);
