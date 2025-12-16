@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/cart.css">
     <title>Cart Fumble </title>
 </head>
 
@@ -21,34 +22,53 @@
                 <div class="cart-foto-item">
                     <img src="img/squishy.png" alt="FUMBLE Stress ball">
                 </div>
+
+
+                <div class="cart-item-info">
+                    <h2 class="cart-item-title">FUMBLE Stress ball</h2>
+                    <p class="cart-item-price">€6.50</p>
+                </div>
+
+                <div class="cart-qty">
+                    <button class="btn-minus" type="button">&#x002D;</button>
+                    <span class="qty-value">1</span>
+                    <button class="btn-plus" type="button">&#x002B;</button>
+
+                </div>
+                <button class="delete-btn" type="button" aria-label="Remove item">
+                    <!-- trash icon -->
+                    <img src="img/icons/IconTrash.svg" alt="trashBin icon">
+                </button>
             </div>
-
-            <div class="cart-item-info">
-                <h2 class="cart-item-title">FUMBLE Stress ball</h2>
-                <p class="cart-item-price">€6.50</p>
-            </div>
-
-
 
         </section>
         <!--TOTAL-->
         <section class="cart-total">
+            <div class="total-wrap">
+                <h3 class="title">Your order</h3>
 
-            <div class="total-all-row">
-                <div class="total-row">
-                    <h2 class="total-label">Subtotaal</h2>
-                    <p class="total-price">€6.50</p>
+                <div class="total-all-row">
+                    <div class="total-row">
+                        <h2 class="total-label">Subtotaal</h2>
+                        <p class="total-price">€6.50</p>
+                    </div>
+
+
+                    <div class="total-row">
+                        <h2 class="total-label">Delivery</h2>
+                        <p class="total-price">€3.95</p>
+                    </div>
+
+                    <div class="total-row-sum">
+                        <h2 class="total-label">Totaal</h2>
+                        <p class="total-price-sum">€10.45</p>
+                    </div>
+
+                    <p class="free-dev">
+                        <span class="hint-icon">💡</span>
+                        Add €9.99 for <strong class="hint-strong">free</strong> delivery!
+                    </p>
                 </div>
-            </div>
-
-            <div class="total-row">
-                <h2 class="total-label">Delivery</h2>
-                <p class="total-price">€3.95</p>
-            </div>
-
-            <div class="total-row-sum">
-                <h2 class="total-label">Totaal</h2>
-                <p class="total-price-sum">€10.45</p>
             </div>
         </section>
     </main>

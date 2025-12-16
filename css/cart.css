@@ -1,0 +1,30 @@
+/*
+COLOR PALETTE
+0C3C3B - dark green
+005251 - mid green
+00615F - light green
+FFC53E - yellow
+171717 - black
+F9F3F1 - off-white
+B6B6B6 - gray
+*/
+
+:root {
+  --dark: #0C3C3B;
+  --mid: #005251;
+  --lightgreen: #00615F;
+  --yellow: #FFC53E;
+  --black: #171717;
+  --offwhite: #F9F3F1;
+  --gray: #B6B6B6;
+
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
