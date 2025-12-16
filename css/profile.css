@@ -215,6 +215,7 @@ html, body {
     bottom: 0;
     padding: 10px 10px 14px;
     background-color: var(--dark);
+    border-radius: 12px 12px 0 0; 
 }
 
 .bottom-bar-list {
