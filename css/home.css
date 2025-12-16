@@ -178,6 +178,7 @@ main {
     border-radius: var(--radius-img);
     margin-bottom: 10px;
     /* почему они расстянуты,,,,*????*/
+    object-fit: cover;
 }
 
 /*product text */ 

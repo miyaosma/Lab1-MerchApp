@@ -26,8 +26,8 @@ B6B6B6 - gray
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background: #ffff;
+    font-family: "Popins", sans-serif;
+    background: #ffff;
 }
 
 header {
@@ -52,8 +52,8 @@ header {
 /*profile wrap*/
 
 .profile-wrap {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding-top: 14px;
     padding-right: 12px;
@@ -89,7 +89,7 @@ header {
     background: var(--offwhite);
     border-radius: 22px;
     padding: 16px;
-    margin-top: 14px;
+    margin: 14px 16px;
 }
 
 .about-us h2 {
@@ -120,7 +120,7 @@ header {
     font-size: 13px;
     font-weight: 700;
     color: var(--lightgreen);
-} 
+}
 
 .acc-options {
     display: flex;
@@ -130,15 +130,103 @@ header {
 }
 
 .acc-item {
-    background:#ffff;
+    background: #ffff;
     text-decoration: none;
     color: var(--dark);
-    border: 1px solid var(--gray);
+    border: 1px solid #E0E0E0;
     border-radius: 12px;
-    padding: 14px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
 }
+
 .acc-item img {
     width: 16px;
     height: 16px;
     display: block;
 }
+
+.option-desc {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.arrow {
+    font-size: 18px;
+    margin-left: auto;
+}
+
+/*logout btn exit*/
+
+.logout {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 88px;
+    padding: 16px;
+
+}
+.logout-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #FEF2F2;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    color: var(--offwhite);
+
+}
+
+.logout-left {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-weight: 700;
+
+}
+
+.logout-icon {
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.logout-msg {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(251, 44, 54);
+}
+
+
+/* NAV Bottom */
+.bottom-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 10px 14px;
+    background-color: var(--dark);
+}
+
+.bottom-bar-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-bar-links {
+    width: 58px;
+    height: 58px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+
+}
+
+/* margin 16px for all in 1 TO DO */
