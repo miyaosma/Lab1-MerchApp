@@ -80,9 +80,8 @@ main {
     justify-content: flex-start;
     gap: 12px;
     background: #ffff;
-    border: 1px solid var(--gray);
+    border: 0.5px solid rgba(182, 182, 182, 0.5);
     border-radius: var(--radius-lg);
-
 }
 
 .cart-foto-item {
